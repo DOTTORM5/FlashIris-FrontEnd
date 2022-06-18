@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FlashIris-FrontEnd/static/css/main.3fce3f7a.css",
-    "main.js": "/FlashIris-FrontEnd/static/js/main.c3f8f9ea.js",
+    "main.js": "/FlashIris-FrontEnd/static/js/main.57d4f457.js",
     "static/js/787.cda612ba.chunk.js": "/FlashIris-FrontEnd/static/js/787.cda612ba.chunk.js",
     "static/media/img-2.jpg": "/FlashIris-FrontEnd/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-1.jpg": "/FlashIris-FrontEnd/static/media/img-1.53f4843759ebec256cb9.jpg",
@@ -14,11 +14,11 @@
     "static/media/fontello.woff2?87127961": "/FlashIris-FrontEnd/static/media/fontello.0fcda6c972efa2e2c475.woff2",
     "index.html": "/FlashIris-FrontEnd/index.html",
     "main.3fce3f7a.css.map": "/FlashIris-FrontEnd/static/css/main.3fce3f7a.css.map",
-    "main.c3f8f9ea.js.map": "/FlashIris-FrontEnd/static/js/main.c3f8f9ea.js.map",
+    "main.57d4f457.js.map": "/FlashIris-FrontEnd/static/js/main.57d4f457.js.map",
     "787.cda612ba.chunk.js.map": "/FlashIris-FrontEnd/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fce3f7a.css",
-    "static/js/main.c3f8f9ea.js"
+    "static/js/main.57d4f457.js"
   ]
 }
