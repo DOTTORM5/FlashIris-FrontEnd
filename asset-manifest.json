@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/FlashIris-FrontEnd/static/css/main.3fce3f7a.css",
-    "main.js": "/FlashIris-FrontEnd/static/js/main.57d4f457.js",
-    "static/js/787.cda612ba.chunk.js": "/FlashIris-FrontEnd/static/js/787.cda612ba.chunk.js",
-    "static/media/img-2.jpg": "/FlashIris-FrontEnd/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
-    "static/media/img-1.jpg": "/FlashIris-FrontEnd/static/media/img-1.53f4843759ebec256cb9.jpg",
-    "static/media/img-8.jpg": "/FlashIris-FrontEnd/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
-    "static/media/FLASH VAPE logo white transparent.png": "/FlashIris-FrontEnd/static/media/FLASH VAPE logo white transparent.5ef844831272fbc67099.png",
-    "static/media/fontello.eot?87127961": "/FlashIris-FrontEnd/static/media/fontello.b78383a81a186b912fd4.eot",
-    "static/media/fontello.ttf?87127961": "/FlashIris-FrontEnd/static/media/fontello.e5416eb7e1a8dc4c89f1.ttf",
-    "static/media/fontello.woff?87127961": "/FlashIris-FrontEnd/static/media/fontello.c43857b9da4694d372f6.woff",
-    "static/media/fontello.svg?87127961": "/FlashIris-FrontEnd/static/media/fontello.9fb6b4d3cfeca4cd0578.svg",
-    "static/media/fontello.woff2?87127961": "/FlashIris-FrontEnd/static/media/fontello.0fcda6c972efa2e2c475.woff2",
-    "index.html": "/FlashIris-FrontEnd/index.html",
-    "main.3fce3f7a.css.map": "/FlashIris-FrontEnd/static/css/main.3fce3f7a.css.map",
-    "main.57d4f457.js.map": "/FlashIris-FrontEnd/static/js/main.57d4f457.js.map",
-    "787.cda612ba.chunk.js.map": "/FlashIris-FrontEnd/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.e95d70da.css",
+    "main.js": "/static/js/main.bc157607.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
+    "static/media/img-8.jpg": "/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "static/media/FLASH VAPE logo white transparent.png": "/static/media/FLASH VAPE logo white transparent.5ef844831272fbc67099.png",
+    "static/media/fontello.eot?87127961": "/static/media/fontello.b78383a81a186b912fd4.eot",
+    "static/media/fontello.ttf?87127961": "/static/media/fontello.e5416eb7e1a8dc4c89f1.ttf",
+    "static/media/fontello.woff?87127961": "/static/media/fontello.c43857b9da4694d372f6.woff",
+    "static/media/fontello.svg?87127961": "/static/media/fontello.9fb6b4d3cfeca4cd0578.svg",
+    "static/media/fontello.woff2?87127961": "/static/media/fontello.0fcda6c972efa2e2c475.woff2",
+    "index.html": "/index.html",
+    "main.e95d70da.css.map": "/static/css/main.e95d70da.css.map",
+    "main.bc157607.js.map": "/static/js/main.bc157607.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fce3f7a.css",
-    "static/js/main.57d4f457.js"
+    "static/css/main.e95d70da.css",
+    "static/js/main.bc157607.js"
   ]
 }
