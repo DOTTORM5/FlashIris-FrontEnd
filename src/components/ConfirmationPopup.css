@@ -1,0 +1,101 @@
+.confirmation-popup-show{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #ffff;
+    width: 30% auto;
+    height: 70% auto;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    z-index: 100; /* Higher than the z-index of the background */
+    animation: popup-show 0.5s;
+    transform: translate(-50%, -50%);
+}
+
+.confirmation-popup-show > *{
+    margin: 3% 0;
+}
+
+.confirmation-popup-show > h1 {
+    font-style: Georgia;
+    font-size: 48px;
+    color: red;
+}
+@keyframes popup-show {
+    from{
+        transform:  translate(-50%, -50%) scale(0);
+    }
+    /* 50%{
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    60%{
+        transform: translate(-50%, -50%) scale(0.6);
+    }
+    70%{
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+    80%{
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    90%{
+        transform: translate(-50%, -50%) scale(0.9);
+    } */
+    to{
+        transform: translate(-50%, -50%) scale(1);
+    }
+  }
+
+.confirmation-popup-hidden{
+    display: none;
+}
+
+/* Ste animazioni molto arronzate... non siamo mica degli esteti !!! */
+/* @keyframes popup-hide {
+    0%{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: #ffff;
+        width: 30% auto;
+        height: 70% auto;
+        align-items: center;
+        left: 50%;
+        top: 50%;
+        border-radius: 0.3rem;
+        padding: 1rem;
+        z-index: 100;
+        transform:  translate(-50%, -50%) scale(1);
+    }
+    50%{
+        opacity: 10%;
+        transform: translate(-50%, -50%);
+    }
+    60%{
+        opacity: 25%;
+        transform: translate(-50%, -50%);
+    }
+    70%{
+        z-index: -50;
+        opacity: 50%;
+        transform: translate(-50%, -50%);
+    }
+    80%{
+        opacity: 70%;
+        transform: translate(-50%, -50%);
+    }
+    90%{
+        opacity: 100%;
+        transform: translate(-50%, -50%);
+    }
+    100%{
+        visibility: hidden;
+        display: none;
+        z-index: -100;
+        width: 0;
+        height: 0;
+        position: fixed;
+    }
+} */

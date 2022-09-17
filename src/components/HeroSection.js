@@ -3,9 +3,10 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
-function HeroSection() {
+function HeroSection(props) {
+
   return (
-    <div className='hero-container'>
+    <div className={props.showConfirmationPopup ? 'hero-container-opacity' : 'hero-container'}>
       <video src='/videos/shutterstock_31249135.mp4' autoPlay loop muted />
       <h1>FLASH IRIS GROUP</h1>
       <p>Is coming up soon</p>

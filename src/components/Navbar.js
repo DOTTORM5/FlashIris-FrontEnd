@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import './logoCSS/fontello.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className={props.showConfirmationPopup ? 'navbar-opacity' : 'navbar'}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <i className={button ? 'icon-logovector' : 'icon-logovector-mobile'}/>
@@ -36,12 +36,12 @@ const Navbar = () => {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
+            <li className='navbar-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            {/* <li className='nav-item'>
+            {/* <li className='navbar-item'>
               <Link
                 to='/services'
                 className='nav-links'
@@ -50,7 +50,7 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='navbar-item'>
               <Link
                 to='/products'
                 className='nav-links'
