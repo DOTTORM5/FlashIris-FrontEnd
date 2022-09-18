@@ -41,7 +41,7 @@ const Navbar = (props) => {
                 Home
               </Link>
             </li>
-            {/* <li className='navbar-item'>
+            <li className='navbar-item'>
               <Link
                 to='/services'
                 className='nav-links'
@@ -68,9 +68,9 @@ const Navbar = (props) => {
               >
                 Sign Up
               </Link>
-            </li> */}
+            </li>
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>

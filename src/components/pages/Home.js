@@ -8,8 +8,8 @@ const Home = (props) => {
   return (
     <>
       <HeroSection  showConfirmationPopup={props.showConfirmationPopup}/>
-      {/* <Cards /> */}
-      <Footer />
+      <Cards showConfirmationPopup={props.showConfirmationPopup}/>
+      <Footer showConfirmationPopup={props.showConfirmationPopup}/>
     </>
   );
 }

@@ -7,6 +7,15 @@
     align-items: center;
   }
   
+  .footer-container-opacity {
+    display: none;
+  }
+
+  .footer-container-opacity > *{
+    display: none;
+  }
+  
+
   .footer-subscription {
     display: flex;
     flex-direction: column;

@@ -2,9 +2,9 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function Cards(props) {
   return (
-    <div className='cards'>
+    <div className={props.showConfirmationPopup ? 'cards-opacity'  : 'cards'}>
       <h1>Prova i nostri fantastici prodotti!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -13,7 +13,7 @@ function Cards() {
               src='images/flash/FLASH 600 and FLASH 1600 presentation EN.jpg'
               text='Gusta la nostra FLASH 600'
               label=''
-              path='/'
+              path='/products/flash'
             />
             <CardItem
               src='images/voom/VOOM IRIS MINI prezentacija EN WEB_.jpg'
@@ -22,7 +22,7 @@ function Cards() {
               path='/'
             />
           </ul>
-          {/* <ul className='cards__items'>
+          <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
@@ -41,7 +41,7 @@ function Cards() {
               label='Adrenaline'
               path='/sign-up'
             />
-          </ul> */}
+          </ul>
 
         </div>
       </div>

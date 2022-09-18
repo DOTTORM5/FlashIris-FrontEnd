@@ -9,23 +9,23 @@ function HeroSection(props) {
     <div className={props.showConfirmationPopup ? 'hero-container-opacity' : 'hero-container'}>
       <video src='/videos/shutterstock_31249135.mp4' autoPlay loop muted />
       <h1>FLASH IRIS GROUP</h1>
-      <p>Is coming up soon</p>
+      <p>is coming up soon</p>
       <div className='hero-btns'>
-        {/* <Button
+        <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           GET STARTED
-        </Button> */}
-        {/* <Button
+        </Button>
+        <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
-        </Button> */}
+        </Button>
       </div>
     </div>
   );
