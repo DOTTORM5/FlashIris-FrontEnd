@@ -8,7 +8,7 @@ function HeroSection(props) {
   return (
     <div className={props.showConfirmationPopup ? 'hero-container-opacity' : 'hero-container'}>
       <video src='/videos/shutterstock_31249135.mp4' autoPlay loop muted />
-      <h1>FLASH IRIS GROUP</h1>
+      <h1>MAISON DU VAPEUR</h1>
       <p>is coming up soon</p>
       <div className='hero-btns'>
         <Button
