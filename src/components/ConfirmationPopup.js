@@ -10,7 +10,7 @@ function ConfirmationPopup(props){
             </div>
             <h2>Per accedere devi essere maggiorenne</h2>
             <div className='mybutton'>
-                <Button buttonStyle="btn--outline--black" buttonSize="btn--large" onClick={props.hideConfirmationPopup}>Sono maggiorenne</Button>
+                <Button buttonStyle="btn--outline--black" onClick={props.hideConfirmationPopup}>Sono maggiorenne</Button>
             </div>
             {/*Se il tizio dice che non è maggiorenne lo sparo su google... che schifo*/}
             <div className='mybutton' style={{marginBottom: "7%"}}>

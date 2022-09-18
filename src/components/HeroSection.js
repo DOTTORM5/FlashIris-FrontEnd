@@ -9,8 +9,8 @@ function HeroSection(props) {
     <div className={props.showConfirmationPopup ? 'hero-container-opacity' : 'hero-container'}>
       <video src='/videos/shutterstock_31249135.mp4' autoPlay loop muted />
       <h1>MAISON DU VAPEUR</h1>
-      <p>is coming up soon</p>
-      <div className='hero-btns'>
+      {/* <p>is coming up soon</p> */}
+      {/* <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -26,7 +26,7 @@ function HeroSection(props) {
         >
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 }

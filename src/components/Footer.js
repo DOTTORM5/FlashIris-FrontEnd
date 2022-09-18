@@ -8,10 +8,10 @@ function Footer(props) {
     <div className={props.showConfirmationPopup ? 'footer-container-opacity' : 'footer-container'}>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Vuoi rimanere aggiornato sulle novità di Maison Du Vapeur?
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Iscriviti alla newsletter
         </p>
         <div className='input-areas'>
           <form>
@@ -39,38 +39,38 @@ function Footer(props) {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            {/* <Link to='/'>Destinations</Link>
+            <Link to='/'>Sponsorships</Link> */}
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
+            {/* <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
+            <Link to='/'>Agency</Link> */}
             <Link to='/'>Influencer</Link>
           </div>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
+          {/* <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               TRVL
               <i class='fab fa-typo3' />
             </Link>
-          </div>
-          <small class='website-rights'>TRVL © 2020</small>
-          <div class='social-icons'>
-            <Link
+          </div> */}
+          <small class='website-rights'>©️ - TUTTI I DIRITTI RISERVATI - SEDE LEGALE: Via 24 Maggio - 80058, Torre Annunziata (NA) - CF/PI: 10076521219 - Pec: flashirisgroup@pecimprese.it</small>
+          {/* <div class='social-icons'> */}
+            {/* <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
@@ -109,8 +109,8 @@ function Footer(props) {
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
-          </div>
+            </Link> */}
+          {/* </div> */}
         </div>
       </section>
     </div>
