@@ -8,7 +8,7 @@ import {useEffect} from 'react';
 function ConfirmationPopup(props){
 
   
-    const [setCookie] = useCookies("accepted");
+    const [cookie, setCookie] = useCookies("accepted");
 
 
     useEffect(() => {
@@ -23,7 +23,7 @@ function ConfirmationPopup(props){
 
 
     const click_func = () => {
-        setCookie('accepted', true, {path : "/", maxAge: "10"});
+        setCookie('accepted', true, {path : "/", maxAge: "10000"});
         props.hideConfirmationPopup();  
     }
 
